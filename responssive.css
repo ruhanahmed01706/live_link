@@ -1,0 +1,26 @@
+@media(max-width:991px) {
+    .menu{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+        width: 85%;
+        text-align: right;
+    }
+    .menu-icon span{
+        font-size: 25px;
+    }
+    .item, .member {
+        width:39%;
+        margin: 30px;
+    }
+    
+}
+
+
+@media (max-width: 575px){
+    .item, .member {
+        width: 100%;
+
+    }
+}
